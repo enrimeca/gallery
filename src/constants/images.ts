@@ -1,7 +1,7 @@
 export const images = [
   {
     original: "https://picsum.photos/id/870/1200/900",
-    thumbnail: "https://picsum.photos/id/870/200/15"
+    thumbnail: "https://picsum.photos/id/870/200/150"
   },
   {
     original: "https://picsum.photos/id/1/1200/800",
