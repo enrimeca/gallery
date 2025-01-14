@@ -57,3 +57,4 @@ This will execute Jest tests defined in the `src` directory.
 ├── vite.config.ts           # Vite configuration
 └── README.md                # Project documentation
 ```
+![gallery](https://github.com/user-attachments/assets/e094b7d3-966e-4f19-94f4-33af6d60c960)
