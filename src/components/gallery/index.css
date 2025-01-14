@@ -1,0 +1,14 @@
+.principal {
+  display: inline-block;
+}
+
+.principal img {
+  height: 450px;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  height: 150px;
+}
