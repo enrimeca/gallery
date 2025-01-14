@@ -1,14 +1,46 @@
 .principal {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 
 .principal img {
-  height: 450px;
+  height: 500px;
+  width: auto; 
+  max-width: 85%; 
+  object-fit: cover; 
+  border-radius: 20px;
 }
 
 .thumbnails {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  height: 150px;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+}
+
+.selected {
+  border: 2px solid red;
+}
+
+.arrow {
+  color: black;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.arrow:hover {
+  background: rgba(184, 180, 180, 0.8);
 }
