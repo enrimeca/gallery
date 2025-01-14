@@ -18,7 +18,7 @@ const Gallery = () => {
   };
 
   return (
-    <>
+    <div className="container">
       <div className="principal">
         <button className="arrow" onClick={handlePrev}>&lt;</button>
         <img src={images[currentImage].original} alt="" />
@@ -38,7 +38,7 @@ const Gallery = () => {
           })
         }
       </div>
-    </>
+    </div>
   )
 }
 
